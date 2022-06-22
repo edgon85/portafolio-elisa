@@ -1,0 +1,44 @@
+.comment-content {
+  text-align: center;
+  margin-block: 2.5rem;
+}
+
+.comment-content p {
+  margin: 0;
+}
+
+.comment-content p:first-child {
+  font-size: 1.5rem;
+  line-height: 2.4375rem;
+  margin-block-end: 1.5rem;
+}
+.comment-content p:nth-of-type(2) {
+  font: var(--headline5);
+  margin-block-end: 1.5rem;
+}
+
+.comment-content a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .comment-content {
+        
+        margin-block: 12.5rem;
+      }
+
+  .comment-content p {
+    max-inline-size: 56.25rem;
+    margin: auto;
+  }
+
+  .comment-content p:first-child {
+    font-size: 2.125rem;
+    line-height: 3.4375rem;
+    margin-block-end: 1.5rem;
+    font-weight: 300;
+  }
+}
