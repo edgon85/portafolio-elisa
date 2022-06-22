@@ -19,4 +19,5 @@ body{
     font: var(--body1);
     background: var(--bg);
     min-block-size: 100vh;
+    margin: 0;
 }

@@ -1,0 +1,45 @@
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    block-size: 5rem;
+    align-items: center;
+}
+
+
+.logo-content{
+    max-inline-size: 4.375rem;
+}
+
+.logo-content img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.menu ul a {
+    text-decoration: none;
+    font: var(--button);
+    color: var(--black);
+    opacity: 0.5;
+}
+
+.menu ul a.is-active {
+    opacity: 1;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
+}
