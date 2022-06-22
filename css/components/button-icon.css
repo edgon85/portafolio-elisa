@@ -1,0 +1,17 @@
+
+
+.button-icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    inline-size: 2.75rem;
+    block-size: 2.75rem;
+    background-color: var(--primary);
+    border: 1px solid var(--black);
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: var(--black);
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
