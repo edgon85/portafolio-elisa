@@ -10,6 +10,7 @@
   text-decoration: none;
   color: var(--black);
   display: inline-block;
+  text-align: center;
 }
 
 .is-primary {
