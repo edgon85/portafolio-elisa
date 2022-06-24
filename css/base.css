@@ -12,6 +12,7 @@
   --body2: 400 0.875rem/1.4157500267028809rem Oxygen;
   --button: 700 0.875rem/1.4157500267028809rem Oxygen;
   --caption: 400 0.75rem/1.2135000228881836rem Oxygen;
+  scroll-behavior: smooth;
 }
 
 
@@ -20,4 +21,14 @@ body{
     background: var(--bg);
     min-block-size: 100vh;
     margin: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }

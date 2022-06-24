@@ -28,6 +28,7 @@
     padding-inline: 0.5rem;
     align-self: flex-start;
     box-shadow: -4px 4px 0 white;
+    text-transform: uppercase;
 }
 
 /* ------------------- */

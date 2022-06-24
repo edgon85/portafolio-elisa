@@ -1,0 +1,44 @@
+.footer .logo-content {
+  display: none;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-block-end: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-block-end: 2.5rem;
+  }
+
+  .footer .logo-content {
+    display: block;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer .social {
+    order: 3;
+  }
+
+  .footer-copyright {
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+  }
+}
