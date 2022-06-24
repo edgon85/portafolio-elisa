@@ -21,6 +21,7 @@ body{
     background: var(--bg);
     min-block-size: 100vh;
     margin: 0;
+    position: relative;
 }
 
 p{

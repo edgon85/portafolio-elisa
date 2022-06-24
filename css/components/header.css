@@ -1,3 +1,9 @@
+.header{
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(0.625rem);
+}
+
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -30,6 +36,10 @@
     font: var(--button);
     color: var(--black);
     opacity: 0.5;
+}
+
+.menu ul a:hover {
+    color:white;
 }
 
 .menu ul a.is-active {
