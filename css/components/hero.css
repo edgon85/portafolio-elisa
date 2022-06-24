@@ -1,10 +1,14 @@
-.hero-content{
+.hero-content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
     margin-block-start: 1rem;
+    position: relative;
 }
 
+.hero-content::before{
+   display: none;
+}
 
 .hero-image {
     text-align: center;
@@ -45,5 +49,17 @@
 
     .hero-description{
         max-inline-size: 28.125rem;
+    }
+
+
+    .hero-content::before{
+        display: block;
+        content: '';
+        position: absolute;
+        top: -30%;
+        left: -27%;
+        inline-size: 400px;
+        block-size: 400px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(191, 53, 142, 0.5) 0%, rgba(191, 53, 142, 0) 100%);
     }
 }

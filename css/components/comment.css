@@ -1,6 +1,11 @@
 .comment-content {
   text-align: center;
   margin-block: 2.5rem;
+  position: relative;
+}
+
+.comment-content::before{
+ display: none;
 }
 
 .comment-content p {
@@ -41,4 +46,16 @@
     margin-block-end: 1.5rem;
     font-weight: 300;
   }
+
+  
+.comment-content::before{
+  display: block;
+  content: '';
+  position: absolute;
+  top: -80%;
+  left: 30%;
+  inline-size: 400px;
+  block-size: 400px;
+  background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
+}
 }

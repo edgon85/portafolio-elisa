@@ -55,6 +55,7 @@
      display: flex;
      padding-block: 5rem;
      gap: 1.5rem;
+     position: relative;
     }
 
 
@@ -84,5 +85,27 @@
     .project-description .buttons button {
         order: 0;
     }
+
+    .project:nth-of-type(3)  .project-content::before{
+        display: block;
+        content: '';
+        position: absolute;
+        top: 30%;
+        left: -10%;
+        inline-size: 400px;
+        block-size: 400px;
+        background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
+      }
+
+    .project:nth-of-type(5)  .project-content::before{
+        display: block;
+        content: '';
+        position: absolute;
+        top: -10%;
+        right: -15%;
+        inline-size: 400px;
+        block-size: 400px;
+        background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
+      }
 
 }

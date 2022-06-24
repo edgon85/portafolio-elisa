@@ -48,7 +48,20 @@
   .form-info-container {
     max-inline-size: 33.9375rem;
     margin: auto;
+    position: relative;
   }
+
+  .form-info-container::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    inline-size: 400px;
+    block-size: 400px;
+    background: radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%);
+  }
+
 
   .form .title {
     align-self: stretch;
