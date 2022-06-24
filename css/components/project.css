@@ -1,6 +1,4 @@
-.project-content{
-    border: 1px solid red;
-}
+
 
 /* ------------------- */
 .project-image {
@@ -59,10 +57,15 @@
     }
 
 
-    .project:nth-child(odd) .project-image {
-        margin: 0;
+   /*  .project:nth-child(odd) .project-image {
+        margin: auto;
         order: 2;
-        flex: 1;
+
+    } */
+
+    .project:nth-of-type(3) .project-image, .project:nth-of-type(7) .project-image{
+        margin: auto;
+        order: 2;
     }
 
 
